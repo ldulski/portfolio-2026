@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="/app/CSS/globals.CSS">
+    <link rel="stylesheet" href="/app/CSS/colors.CSS">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="/app/JS/script.JS" defer></script>    
 </head>
 <body>
     <header>
@@ -21,6 +25,63 @@
             <div class="toggle"></div>
         </nav>
     </header>
+        <section class="hero">
+        <div>
+            <h2>Bathroom</h2>
+            <p class="subheader">You’re reading this while on the toilet aren’t you...</p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div>
+                <h2>Let's Work Together</h2>
+                <p>Hope you enjoyed the house tour! If you liked what you saw, you can either fill out the form or email me to tell me about your project.</p>
+                <a href="toemail:lduski.07@gmail.com" class="btn-primary">Email</a>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <h5>Are a queer or BiPoC small business?</h5>
+                    <span class="material-icons-outlined">expand_more</span>
+                    <span class="material-icons-outlined">expand_less</span>
+                </div>
+                <p>I love to partner with organizations and small businesses that support queer and/or marginalized communities, and can offer either discounted services or a barter/trade request. To learn more please email me with your business name and your request.</p>
+                <div>
+                    <h5>Sample Barter/Trade Requests:</h5>
+                    <ul>
+                        <li>Visual Identity Services for a Tattoo</li>
+                        <li>Tarot Reading for a Astrology Reading</li>
+                        <li>Event Collaboration for Tickets/Access</li>
+                        <li>Illustration for an Illustration, etc.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <form>
+            <label>What type of project is it?</label><br>
+            <select id="project-tags" name="project-types" multiple>
+                <option>Print Design</option>
+                <option>Web Design</option>
+                <option>Audio</option>
+                <option>Event Facilitation</option>
+                <option>Visual Identity</option>
+                <option>Illustration</option>
+                <option>UX/UI</option>
+                <option>Other</option>
+            </select><br>
+            <label>Full Name</label><br>
+            <input type="text" id="name" name="name" value="Wanda Childa"><br>
+            <label>Your Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label>Your Pronouns</label><br>
+            <input type="text" id="pronouns" name="pronouns" value="she/her,he/him,they/them, etc."><br>
+            <label>A Little Bit About This Project</label><br>
+            <textarea></textarea><br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">                
+            </div>
+        </form>
+    </section>
     <footer>
         <div class="left-footer-links">
             <ul>
