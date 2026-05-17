@@ -1,0 +1,84 @@
+@import '/app/CSS/colors.CSS';
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* base styles */
+html {
+    margin: 0px 72px;
+}
+
+/* typography */
+@font-face {
+    font-family: Tan-Requiem;
+    src: url(/app/CSS/TAN-REQUIEM.otf);
+}
+
+html {
+    font-size: 17px;
+}
+
+h1 {
+    font-family: "Tan-Requiem", serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Tan-Requiem", serif;
+    font-size: 2.471rem;
+}
+
+h3 {
+    font-family: "Tan-Requiem", serif;
+    font-size: 2.059rem;
+}
+
+h4 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 1.706rem;
+}
+
+h5 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 1.412rem;
+}
+
+h6 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 1.176rem;
+}
+
+.subheader {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 1.176rem;
+}
+
+p {
+    font-family: "Figtree", sans-serif;
+    font-size: 1rem;
+}
+
+.xs-p {
+    font-family: "Figtree", sans-serif;
+    font-size: 0.82rem;
+}
+
+li {
+    font-family: "Figtree", sans-serif;
+    font-size: 1rem;
+}
+
+a{
+    font-family: "Figtree", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+/* color modes */
+    /* lightmode  */
+    body{
+        background-color: var(--lightmode-bg);
+        color: var(--lightmode-text);
+    }
+/* button styles */

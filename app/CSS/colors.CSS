@@ -1,0 +1,20 @@
+:root{
+    /* base colors */
+    --true-black: #000000;
+    --true-white: #FFFFFF;
+    --black-chery: #640D14;
+    --cotton-candy: #FD9BB7;
+    --golden-apricot: #D8973C;
+    --pearl-beige: #FFFAEC;
+    --summer-green: #91BDAA;
+    --green-pea: #1E6C5F;
+    --cedar: #412A16;
+
+    /* light mode colors */
+    --lightmode-bg:var(--true-white);
+    --lightmode-text:var(--cedar);
+
+    /* dark mode colors */
+    --darkmode-bg:var(--black-chery);
+    --darkmode-text:var(--pearl-beige);
+}
