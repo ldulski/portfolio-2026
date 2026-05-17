@@ -13,6 +13,8 @@
     /* light mode colors */
     --lightmode-bg:var(--true-white);
     --lightmode-text:var(--cedar);
+    --lightmode-btn-bg: var(--green-pea);
+    --lightmode-btn-text: var(--pearl-beige);
 
     /* dark mode colors */
     --darkmode-bg:var(--black-chery);

@@ -70,15 +70,44 @@ li {
     font-size: 1rem;
 }
 
-a{
+a {
     font-family: "Figtree", sans-serif;
     font-size: 1rem;
     text-decoration: none;
 }
+
 /* color modes */
-    /* lightmode  */
-    body{
-        background-color: var(--lightmode-bg);
+/* lightmode  */
+body {
+    background-color: var(--lightmode-bg);
+    color: var(--lightmode-text);
+
+    nav a {
         color: var(--lightmode-text);
     }
+}
+
+/* nav styles */
+nav {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 1.412rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0px 25px;
+}
+
 /* button styles */
+.btn-primary{
+    background-color: var(--lightmode-btn-bg);
+    color: var(--lightmode-btn-text);
+}
