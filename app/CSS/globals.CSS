@@ -82,42 +82,48 @@ body {
     background-color: var(--lightmode-bg);
     color: var(--lightmode-text);
 
+    /* nav styles */
+
     nav a {
         color: var(--lightmode-text);
     }
-}
 
-/* nav styles */
-nav {
-    font-family: "Figtree", sans-serif;
-    font-weight: 500;
-    font-size: 1.412rem;
-    display: flex;
-    justify-content: space-evenly;
-}
+    nav {
+        font-family: "Figtree", sans-serif;
+        font-weight: 500;
+        font-size: 1.412rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-}
+    nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+    }
 
-nav li {
-    list-style-type: none;
-    margin: 0px 25px;
-}
+    nav li {
+        list-style-type: none;
+        margin: 0px 25px;
+    }
 
-/* button styles */
-.btn-primary{
-    background-color: var(--lightmode-btn-bg);
-    color: var(--lightmode-btn-text);
-    font-family: "Figtree", sans-serif;
-    font-weight: 500;
-    font-size: 1.176rem;
-    min-height: 45px;
-    padding: 10px 15px;
-}
+    /* button styles */
+    .btn-primary {
+        background-color: var(--lightmode-btn-bg);
+        color: var(--lightmode-btn-text);
+        font-family: "Figtree", sans-serif;
+        font-weight: 500;
+        font-size: 1.176rem;
+        min-height: 45px;
+        padding: 10px 15px;
+    }
 
-.btn-primary:hover{
-    background-color: var(--summer-green);
-    color: var(--green-pea);
+    .btn-primary:hover {
+        background-color: var(--summer-green);
+        color: var(--green-pea);
+    }
+
+    /* icons */
+    i {
+        color: var(--lightmode-text);
+    }
 }
