@@ -1,0 +1,10 @@
+@import '/app/CSS/colors.CSS';
+@import '/app/CSS/globals.CSS';
+
+/* index styles start */
+.hero-img img{
+    width: 100%;
+    height: auto;
+}
+
+/* index styles end */

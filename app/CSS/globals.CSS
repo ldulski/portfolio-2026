@@ -76,45 +76,117 @@ a {
     text-decoration: none;
 }
 
+
+/* theme switch start  */
+.toggle {
+    height: 25px;
+    width: 60px;
+    background-color: var(--pearl-beige);
+    border: 2px solid var(--summer-green);
+    position: relative;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.toggle::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: var(--summer-green);
+    border-radius: 50%;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.toggle.active::before {
+    background-color: var(--summer-green);
+    color: var(--pearl-beige);
+    left: calc(100% - 25px);
+}
+
+/* theme switch end */
+
+/* nav styles */
+
+nav {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 1.412rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0px 25px;
+}
+
+/* button styles */
+.btn-primary {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 1.176rem;
+    min-height: 45px;
+    padding: 10px 15px;
+}
+
 /* color modes */
 /* lightmode  */
 body {
-    background-color: var(--lightmode-bg);
-    color: var(--lightmode-text);
+    background-color: var(--darkmode-bg);
+    color: var(--darkmode-text);
 
     /* nav styles */
 
     nav a {
-        color: var(--lightmode-text);
-    }
-
-    nav {
-        font-family: "Figtree", sans-serif;
-        font-weight: 500;
-        font-size: 1.412rem;
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    nav ul {
-        display: flex;
-        flex-flow: row nowrap;
-    }
-
-    nav li {
-        list-style-type: none;
-        margin: 0px 25px;
+        color: var(--darkmode-text);
     }
 
     /* button styles */
     .btn-primary {
-        background-color: var(--lightmode-btn-bg);
-        color: var(--lightmode-btn-text);
-        font-family: "Figtree", sans-serif;
-        font-weight: 500;
-        font-size: 1.176rem;
-        min-height: 45px;
-        padding: 10px 15px;
+        background-color: var(--darkmode-btn-bg);
+        color: var(--darkmode-btn-text);
+    }
+
+    .btn-primary:hover {
+        background-color: var(--green-pea);
+        color: var(--summer-green);
+    }
+
+    /* icons */
+    i {
+        color: var(--darkmode-text);
+    }
+
+    /* page color styles */
+    .hero-img img {
+        border: solid 2px var(--green-pea);
+    }
+}
+
+/* dark mode */
+body.dark {
+    background-color: var(--darkmode-bg);
+    color: var(--darkmode-text);
+
+    /* nav styles */
+
+    nav a {
+        color: var(--darkmode-text);
+    }
+
+    /* button styles */
+    .btn-primary {
+        background-color: var(--darkmode-btn-bg);
+        color: var(--darkmode-btn-text);
     }
 
     .btn-primary:hover {
@@ -124,6 +196,11 @@ body {
 
     /* icons */
     i {
-        color: var(--lightmode-text);
+        color: var(--darkmode-text);
+    }
+
+    /* page color styles */
+    .hero-img img {
+        border: solid 2px var(--summer-green);
     }
 }
