@@ -2,7 +2,7 @@
 @import '/app/CSS/globals.CSS';
 
 /* index styles start */
-.hero-img img{
+.hero-img img {
     width: 100%;
     height: auto;
 }
@@ -10,7 +10,28 @@
 /* index styles end */
 
 /* project styles start */
-    .cta{
-        padding: 25px 15px;
-    }
+.cta {
+    padding: 25px 15px;
+}
+
+
+
+.projectsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 45px 15px;
+    background-color: magenta;
+}
+
+.portProjects div {
+    max-width: 650px;
+}
+
+
+#cc-tarot {
+    background-image: url("/app/images/CC-Web-Hero-Image_v2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* project styles end */

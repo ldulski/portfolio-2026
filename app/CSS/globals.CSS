@@ -6,6 +6,12 @@ html {
     margin: 0px 72px;
 }
 
+section {
+    margin: 32px 0px;
+    padding: 25px 15px;
+    min-width: 1296px;
+}
+
 /* typography */
 @font-face {
     font-family: Tan-Requiem;
@@ -45,7 +51,7 @@ h5 {
     font-family: "Figtree", sans-serif;
     font-weight: 600;
     font-size: 1.412rem;
-    margin:0px;
+    margin: 0px;
 }
 
 h6 {
@@ -138,10 +144,13 @@ nav li {
 /* button styles */
 .btn-primary,
 .btn-secondary {
+    display: flex;
+    align-items: center;
     font-family: "Figtree", sans-serif;
     font-weight: 500;
     font-size: 1.176rem;
-    min-height: 45px;
+    max-width: 150px;
+    min-height: 40px;
     padding: 10px 15px;
 }
 
@@ -167,8 +176,8 @@ body {
     }
 
     .btn-primary:hover {
-        background-color: var(--green-pea);
-        color: var(--summer-green);
+        background-color: var(--summer-green);
+        color: var(--green-pea);
     }
 
     .btn-secondary {
@@ -208,6 +217,18 @@ body {
         background-color: transparent;
         color: var(--pearl-beige);
         border: 2px solid var(--pearl-beige);
+    }
+
+    .hero {
+        border: 2px solid var(--cedar);
+        padding: 25px 0px;
+    }
+
+    .hero div {
+        background-color: var(--cedar);
+        color: var(--pearl-beige);
+        padding: 25px 15px;
+        max-width: 630px;
     }
 }
 
@@ -252,6 +273,36 @@ body.dark {
     /* page color styles */
     .hero-img img {
         border: solid 2px var(--summer-green);
+    }
+
+    .cta {
+        background-color: var(--cotton-candy);
+        color: var(--black-chery);
+
+    }
+
+    .cta .btn-secondary {
+        background-color: var(--pearl-beige);
+        color: var(--black-chery);
+        border: none;
+    }
+
+    .cta .btn-secondary:hover {
+        background-color: transparent;
+        color: var(--black-chery);
+        border: 2px solid var(--black-chery);
+    }
+
+    .hero {
+        border: 2px solid var(--pearl-beige);
+        padding: 25px 0px;
+    }
+
+    .hero div {
+        background-color: var(--pearl-beige);
+        color: var(--black-chery);
+        padding: 25px 15px;
+        max-width: 630px;
     }
 }
 
