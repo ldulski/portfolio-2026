@@ -19,34 +19,40 @@ html {
 h1 {
     font-family: "Tan-Requiem", serif;
     font-size: 3rem;
+    margin: 15px 0px;
 }
 
 h2 {
     font-family: "Tan-Requiem", serif;
     font-size: 2.471rem;
+    margin: 10px 0px;
 }
 
 h3 {
     font-family: "Tan-Requiem", serif;
     font-size: 2.059rem;
+    margin: 0px;
 }
 
 h4 {
     font-family: "Figtree", sans-serif;
     font-weight: 600;
     font-size: 1.706rem;
+    margin: 0px;
 }
 
 h5 {
     font-family: "Figtree", sans-serif;
     font-weight: 600;
     font-size: 1.412rem;
+    margin:0px;
 }
 
 h6 {
     font-family: "Figtree", sans-serif;
     font-weight: 600;
     font-size: 1.176rem;
+    margin: 0px;
 }
 
 .subheader {
@@ -171,6 +177,11 @@ body {
         color: var(--green-pea);
     }
 
+    .btn-secondary:hover {
+        background-color: var(--green-pea);
+        color: var(--pearl-beige);
+    }
+
     /* icons */
     i {
         color: var(--lightmode-text);
@@ -179,6 +190,24 @@ body {
     /* page color styles */
     .hero-img img {
         border: solid 2px var(--green-pea);
+    }
+
+    .cta {
+        background-color: var(--golden-apricot);
+        color: var(--pearl-beige);
+
+    }
+
+    .cta .btn-secondary {
+        background-color: var(--pearl-beige);
+        color: var(--golden-apricot);
+        border: none;
+    }
+
+    .cta .btn-secondary:hover {
+        background-color: transparent;
+        color: var(--pearl-beige);
+        border: 2px solid var(--pearl-beige);
     }
 }
 
@@ -200,8 +229,19 @@ body.dark {
     }
 
     .btn-primary:hover {
-        background-color: var(--summer-green);
-        color: var(--green-pea);
+        background-color: var(--pearl-beige);
+        color: var(--black-chery);
+    }
+
+    .btn-secondary {
+        background-color: transparent;
+        border: 2px solid var(--cotton-candy);
+        color: var(--cotton-candy);
+    }
+
+    .btn-secondary:hover {
+        background-color: var(--cotton-candy);
+        color: var(--black-chery);
     }
 
     /* icons */
