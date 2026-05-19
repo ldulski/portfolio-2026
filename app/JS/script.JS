@@ -1,7 +1,7 @@
 console.log('Hello All!');
 
 // feather icons
-feather.replace();
+// feather.replace();
 
 //  lightmode/ darkmode toogle
 const body = document.querySelector("body");

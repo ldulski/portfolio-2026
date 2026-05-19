@@ -19,4 +19,6 @@
     /* dark mode colors */
     --darkmode-bg:var(--black-chery);
     --darkmode-text:var(--pearl-beige);
+    --darkmode-btn-bg: var(--cotton-candy);
+    --darkmode-btn-text: var(--black-chery);
 }
