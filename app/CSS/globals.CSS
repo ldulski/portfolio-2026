@@ -297,10 +297,19 @@ figcaption {
     padding: 0;
 }
 
+.figure-img {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .section-05 {
     display: flex;
     flex-flow: row nowrap;
     margin-bottom: 32px;
+    gap: 32px;
 }
 
 .section-05>img {
