@@ -21,6 +21,7 @@
 body {
     background-color: var(--lightmode-bg);
     color: var(--lightmode-text);
+    border: 2px solid var(--cloud);
 
     /* nav + footer*/
     nav li a {
@@ -95,7 +96,7 @@ body {
     }
 
     .accordion:after,
-    .active:after {
+    #active:after {
         color: var(--crushed-berry);
     }
 
@@ -104,31 +105,13 @@ body {
         color: var(--crushed-berry);
     }
 
-    .tab {
-        border-bottom: solid 2px var(--cherry);
-        background-color: var(--cloud);
-    }
-
-    .tab button:hover {
-        background-color: var(--baby);
-    }
-
-    .tab button.active {
-        background-color: var(--baby);
-    }
-
-    .tablinks {
-        border-right: 2px solid var(--cherry);
-    }
-
-    .tabcontent {
-        background-color: var(--cloud);
+    .panel li a {
         color: var(--crushed-berry);
     }
 
-    .contact {
-        background-color: var(--cloud);
-        color: var(--crushed-berry);
+    #contact {
+        border-top: 2px solid var(--cloud);
+        border-bottom: 2px solid var(--cloud);
     }
 
     audio {
@@ -179,6 +162,7 @@ body {
 body.dark {
     background-color: var(--darkmode-bg);
     color: var(--darkmode-text);
+    border: 2px solid var(--crushed-berry);
 
     /* nav + footer*/
     nav li a {
@@ -263,35 +247,13 @@ body.dark {
         color: var(--crushed-berry);
     }
 
-    .tab {
-        border-bottom: solid 2px var(--baby);
-        background-color: var(--crushed-berry);
+    .panel li a {
+        color: var(--crushed-berry);
     }
 
-    .tab button {
-        color: var(--cloud);
-    }
-
-    .tab button:hover {
-        background-color: var(--baby);
-    }
-
-    .tab button.active {
-        background-color: var(--baby);
-    }
-
-    .tablinks {
-        border-right: 2px solid var(--baby);
-    }
-
-    .tabcontent {
-        background-color: var(--crushed-berry);
-        color: var(--cloud);
-    }
-
-    .contact {
-        background-color: var(--crushed-berry);
-        color: var(--cloud);
+    #contact {
+        border-top: 2px solid var(--crushed-berry);
+        border-bottom: 2px solid var(--crushed-berry);
     }
 
 
