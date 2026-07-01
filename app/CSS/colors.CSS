@@ -1,0 +1,340 @@
+:root {
+    /* base colors */
+    --cloud: #edebdd;
+    --noir: #1b1717;
+    --crushed-berry: #630000;
+    --cherry: #f10222;
+    --baby: #89cff0;
+
+    /* lightmode */
+    --lightmode-bg: var(--crushed-berry);
+    --lightmode-text: var(--cloud);
+
+    /* darkmode */
+    --darkmode-bg: var(--cloud);
+    --darkmode-text: var(--crushed-berry);
+}
+
+
+/* lightmode styles */
+
+body {
+    background-color: var(--lightmode-bg);
+    color: var(--lightmode-text);
+
+    /* nav + footer*/
+    nav li a {
+        color: var(--cloud);
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        color: var(--baby);
+        text-decoration: none;
+    }
+
+    nav li a:active {
+        color: var(--baby);
+    }
+
+    footer li a {
+        color: var(--cloud);
+        text-decoration: none;
+    }
+
+    footer li a:hover {
+        color: var(--baby);
+        text-decoration: none;
+    }
+
+    footer {
+        border-top: solid 2px var(--cloud);
+    }
+
+    header {
+        border-right: solid 2px var(--cloud);
+    }
+
+    .hero-section {
+        border-bottom: solid 2px var(--cloud);
+    }
+
+    a {
+        color: var(--baby);
+    }
+
+
+    .hero-text {
+        color: var(--cloud);
+    }
+
+    .hero-text:hover {
+        color: var(--baby);
+    }
+
+    .btn-primary {
+        color: var(--crushed-berry);
+        background-color: var(--cloud);
+    }
+
+    .btn-primary:hover {
+        color: var(--cloud);
+        background-color: transparent;
+        border: solid 2px var(--cloud);
+    }
+
+    .accordion {
+        background-color: var(--cloud);
+        color: var(--crushed-berry);
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: var(--baby);
+        color: var(--crushed-berry);
+    }
+
+    .accordion:after,
+    .active:after {
+        color: var(--crushed-berry);
+    }
+
+    .panel {
+        background-color: var(--cloud);
+        color: var(--crushed-berry);
+    }
+
+    .tab {
+        border-bottom: solid 2px var(--cherry);
+        background-color: var(--cloud);
+    }
+
+    .tab button:hover {
+        background-color: var(--baby);
+    }
+
+    .tab button.active {
+        background-color: var(--baby);
+    }
+
+    .tablinks {
+        border-right: 2px solid var(--cherry);
+    }
+
+    .tabcontent {
+        background-color: var(--cloud);
+        color: var(--crushed-berry);
+    }
+
+    .contact {
+        background-color: var(--cloud);
+        color: var(--crushed-berry);
+    }
+
+    audio {
+        border: 2px solid var(--cloud);
+        background-color: var(--cloud);
+        /* Smooth colour transitions for dark mode */
+        transition: var(--crushed-berry) 0.25s ease, var(--cloud) 0.25s ease;
+    }
+
+    audio::-webkit-media-controls-panel {
+        background-color: var(--cloud);
+    }
+
+    audio::-webkit-media-controls-play-button {
+        background-color: var(--crushed-berry);
+        transition: var(--crushed-berry) 0.2s ease;
+    }
+
+    audio::-webkit-media-controls-play-button:hover {
+        background-color: var(--baby);
+        filter: none;
+    }
+
+    audio::-webkit-media-controls-timeline {
+        background-color: var(--cloud);
+        accent-color: var(--baby);
+    }
+
+    audio::-webkit-media-controls-current-time-display {
+        color: var(--crushed-berry);
+    }
+
+    audio::-webkit-media-controls-time-remaining-display {
+        color: var(--crushed-berry);
+    }
+
+    audio::-webkit-media-controls-volume-slider {
+        accent-color: var(--crushed-berry);
+        background-color: var(--cloud);
+    }
+
+    details.audio-transcript>summary {
+        color: var(--cloud);
+    }
+}
+
+/* darkmode styles */
+body.dark {
+    background-color: var(--darkmode-bg);
+    color: var(--darkmode-text);
+
+    /* nav + footer*/
+    nav li a {
+        color: var(--crushed-berry);
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        color: var(--cherry);
+        text-decoration: none;
+    }
+
+    nav li a:active {
+        color: var(--cherry);
+    }
+
+    footer li a {
+        color: var(--crushed-berry);
+        text-decoration: none;
+    }
+
+    footer li a:hover {
+        color: var(--cherry);
+        text-decoration: none;
+    }
+
+    footer {
+        border-top: solid 2px var(--crushed-berry);
+    }
+
+    header {
+        border-right: solid 2px var(--crushed-berry);
+    }
+
+    .hero-section {
+        border-bottom: solid 2px var(--crushed-berry);
+    }
+
+    a {
+        color: var(--cherry);
+    }
+
+
+    .hero-text {
+        color: var(--cr);
+    }
+
+    .hero-text:hover {
+        color: var(--cherry);
+    }
+
+    .btn-primary {
+        color: var(--cloud);
+        background-color: var(--crushed-berry);
+    }
+
+    .btn-primary:hover {
+        color: var(--crushed-berry);
+        background-color: transparent;
+        border: solid 2px var(--crushed-berry);
+    }
+
+    .accordion {
+        background-color: var(--crushed-berry);
+        color: var(--cloud);
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: var(--cherry);
+        color: var(--cloud);
+    }
+
+    .accordion:after,
+    .active:after {
+        color: var(--cloud);
+    }
+
+    .panel {
+        border: 2px solid var(--crushed-berry);
+        background-color: transparent;
+        color: var(--crushed-berry);
+    }
+
+    .tab {
+        border-bottom: solid 2px var(--baby);
+        background-color: var(--crushed-berry);
+    }
+
+    .tab button {
+        color: var(--cloud);
+    }
+
+    .tab button:hover {
+        background-color: var(--baby);
+    }
+
+    .tab button.active {
+        background-color: var(--baby);
+    }
+
+    .tablinks {
+        border-right: 2px solid var(--baby);
+    }
+
+    .tabcontent {
+        background-color: var(--crushed-berry);
+        color: var(--cloud);
+    }
+
+    .contact {
+        background-color: var(--crushed-berry);
+        color: var(--cloud);
+    }
+
+
+    audio {
+        border: 2px solid var(--crushed-berry);
+        background-color: var(--crushed-berry);
+        /* Smooth colour transitions for dark mode */
+        transition: var(--cloud) 0.25s ease, var(--crushed-berry) 0.25s ease;
+    }
+
+    audio::-webkit-media-controls-panel {
+        background-color: var(--crushed-berry);
+    }
+
+    audio::-webkit-media-controls-play-button {
+        background-color: var(--cloud);
+        transition: var(--cloud) 0.2s ease;
+    }
+
+    audio::-webkit-media-controls-play-button:hover {
+        background-color: var(--baby);
+        filter: none;
+    }
+
+    audio::-webkit-media-controls-timeline {
+        background-color: var(--crushed-berry);
+        accent-color: var(--baby);
+    }
+
+    audio::-webkit-media-controls-current-time-display {
+        color: var(--cloud);
+    }
+
+    audio::-webkit-media-controls-time-remaining-display {
+        color: var(--cloud);
+    }
+
+    audio::-webkit-media-controls-volume-slider {
+        accent-color: var(--cloud);
+        background-color: var(--crushed-berry);
+    }
+
+    details.audio-transcript>summary {
+        color: var(--crushed-berry);
+    }
+}
