@@ -255,7 +255,6 @@ footer li a {
 .portfolio-xl {
     width: 1584px;
     height: 500px;
-    background-color: magenta;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -273,7 +272,6 @@ footer li a {
 .portfolio-m {
     width: 744px;
     height: 500px;
-    background-color: magenta;
     display: flex;
     flex-flow: column wrap;
     align-items: center;

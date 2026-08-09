@@ -80,6 +80,14 @@ body {
         border: solid 2px var(--cloud);
     }
 
+    .portfolio-xl {
+        background-color: var(--noir);
+    }
+
+    .portfolio-m {
+        background-color: var(--noir);
+    }
+
     .accordion {
         background-color: var(--cloud);
         color: var(--crushed-berry);
