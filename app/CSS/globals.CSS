@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 html {
+    max-width: 1728px;
     height: auto;
     margin: 72px 32px;
-    overflow-x: hidden;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
 }
 
 img {
@@ -245,18 +248,30 @@ footer li a {
 .portfolio-container {
     display: flex;
     gap: 32px;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 .portfolio-xl {
-    max-width: 1296px;
-    max-height: 500px;
+    width: 1584px;
+    height: 500px;
     background-color: magenta;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
 }
 
 .portfolio-m {
-    max-width: 630px;
-    max-height: 500px;
+    width: 630px;
+    height: 500px;
     background-color: magenta;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
 }
 
 .body-container {
