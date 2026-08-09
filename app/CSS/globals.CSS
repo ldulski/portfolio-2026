@@ -282,6 +282,59 @@ footer li a {
     text-align: center;
 }
 
+#cc-bg-img {
+    background-image: url("/app/images/CC-Web-Hero-Image_v2.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#retell-bg-img {
+    background-image: url("/app/images/retellings-website-homepage.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#bf-bg-img {
+    background-image: url("/app/images/Between\ Frequencies\ Moodboard.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#ritf-bg-img {
+    background-image: url("/app/images/RITF_cover.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#arc-bg-img {
+    background-image: url("/app/images/arc-survey-thumbnail.jpg");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#postd-bg-img {
+    background-image: url("/app/images/Postd-website-01.png");
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 .body-container {
     display: flex;
     flex-flow: row nowrap;
