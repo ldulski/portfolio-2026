@@ -21,7 +21,6 @@
 body {
     background-color: var(--lightmode-bg);
     color: var(--lightmode-text);
-    border: 2px solid var(--cloud);
 
     /* nav + footer*/
     nav li a {
@@ -53,12 +52,9 @@ body {
     }
 
     header {
-        border-right: solid 2px var(--cloud);
-    }
-
-    .hero-section {
         border-bottom: solid 2px var(--cloud);
     }
+
 
     a {
         color: var(--baby);
@@ -194,12 +190,9 @@ body.dark {
     }
 
     header {
-        border-right: solid 2px var(--crushed-berry);
-    }
-
-    .hero-section {
         border-bottom: solid 2px var(--crushed-berry);
     }
+
 
     a {
         color: var(--cherry);
