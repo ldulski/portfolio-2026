@@ -448,16 +448,11 @@ video {
     max-width: 50%;
 }
 
-#contact {
-    margin: 32px 0px;
-    padding: 15px 20px;
-    width: 100%;
-}
 
 .accordion {
     cursor: pointer;
     padding: 18px;
-    width: 1280px;
+    /* width: 1280px; */
     text-align: left;
     border: none;
     outline: none;
