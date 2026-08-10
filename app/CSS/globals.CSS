@@ -281,7 +281,7 @@ footer li a {
 }
 
 #cc-bg-img {
-    background-image: url(".../app/images/CC-Web-Hero-Image_v2.png");
+    background-image: url("../images/cc-tarot-hero.png");
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -289,7 +289,7 @@ footer li a {
 }
 
 #retell-bg-img {
-    background-image: url(".../app/images/retellings-website-homepage.png");
+    background-image: url("../images/retellings-website-homepage.png");
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -298,7 +298,7 @@ footer li a {
 }
 
 #bf-bg-img {
-    background-image: url(".../app/images/Between\ Frequencies\ Moodboard.png");
+    background-image: url("../images/bf-moodboard.png");
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -307,7 +307,7 @@ footer li a {
 }
 
 #ritf-bg-img {
-    background-image: url(".../app/images/RITF_cover.png");
+    background-image: url("../images/RITF_cover.png");
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -316,7 +316,7 @@ footer li a {
 }
 
 #arc-bg-img {
-    background-image: url(".../app/images/arc-survey-thumbnail.jpg");
+    background-image: url("../images/arc-survey-mockup.png");
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
@@ -325,7 +325,7 @@ footer li a {
 }
 
 #postd-bg-img {
-    background-image: url(".../app/images/Postd-website-01.png");
+    background-image: url("../images/Postd-website-01.png");
     background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
