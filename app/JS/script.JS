@@ -41,3 +41,18 @@ for (i = 0; i < acc.length; i++) {
 
 
 //timezone marquee banner
+if (!sessionStorage.getItem('timezone')) {
+    var tz = jstz.determine() || 'UTC';
+    sessionStorage.setItem('timezone', tz.name());
+}
+var currTz = sessionStorage.getItem('timezone');
+var stamp = date + "T" + theTime + "Z";
+var momentTime = moment(stamp);
+
+var tzTime = momentTime.tz(currTz);
+var formattedTime = tzTime.format('h:mm A');
+
+output.textContent = "Time in " + currTz + ": " + formattedTime;
+moment().subtract(4, 'hours');
+moment().add(3, 'hours');
+
