@@ -94,7 +94,37 @@
             <a class="btn-primary" href="emailto:lduski.07@gmail.com"></a>
          </div>
          <div>
-            <form action=""></form>
+            <form action="">
+                <div>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="fullname" placeholder="Wanda Childa">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="coolguy007@gmail.com">
+                </div>
+                <div>
+                    <label for="pronouns">Pronouns</label>
+                    <input type="text" id="pronouns" name="pronouns" placeholder="US/of/A">
+                </div>
+                <div>
+                    <label for="project-type">What type of project is it?</label>
+                    <select name="projects" id="projects">
+                        <option value="print-design">Print Design</option>
+                        <option value="web-design">Web Design/Development</option>
+                        <option value="audio">Audio Editing</option>
+                        <option value="events">Event Planning</option>
+                        <option value="branding">Visual Identity</option>
+                        <option value="illustration">Illustration</option>
+                        <option value="ux-ui">UX/UI</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Tell me a little bit about the project</label>
+                    <textarea name="messageto-me" id="messageto-me" placeholder="say it don't spray it"></textarea>
+                </div>
+            </form>
          </div>
         </section>
     </main>
