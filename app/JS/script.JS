@@ -38,3 +38,6 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
+//timezone marquee banner
