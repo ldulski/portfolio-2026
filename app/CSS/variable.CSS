@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 @font-face {
-    font-family: Lovers Hand;
-    /* set name */
+    font-family: "Lovers Hand";
     src: url(../fonts/TheLover’sHand-Regular.otf);
     src: url(../fonts/TheLover’sHand-Regular.ttf);
 }

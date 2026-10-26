@@ -1,0 +1,54 @@
+@import '../CSS/variable.CSS';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+body {
+    background-color: var(--lightmode-bg);
+    color: var(--lightmode-text);
+}
+
+/* body.darkmode{
+
+} */
+
+/* type */
+h1 {
+    font-family: var(--font-headers);
+    font-size: var(--h1);
+}
+
+h2 {
+    font-family: var(--font-headers);
+    font-size: var(--h2);
+}
+
+h3 {
+    font-family: var(--font-headers);
+    font-size: var(--h3);
+}
+
+h4 {
+    font-family: var(--font-headers);
+    font-size: var(--h4);
+}
+
+h5 {
+    font-family: var(--font-headers);
+    font-size: var(--h5);
+}
+
+h6 {
+    font-family: var(--font-headers);
+    font-size: var(--h6);
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: var(--body);
+}
