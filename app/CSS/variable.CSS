@@ -1,0 +1,75 @@
+:root {
+    /* base colors */
+    --pure-black: #000;
+    --pure-white: #ffff;
+    --jet-black: #180808;
+    --spring-wood: #f7f7ef;
+    --rosewood: #4f0208;
+    --cherry: #ad0517;
+    --light-pink: #d75f72;
+    --olive-green: #7c8d61;
+    --baby-blue: #c9e3f8;
+
+    /* light mode colors */
+    --lightmode-bg: var(--spring-wood);
+    --lightmode-text: var(--jet-black);
+    --lightmode-accent: var(--cherry);
+
+    /* dark mode colors */
+
+    --darkmode-bg: var(--rosewood);
+    --darkmode-text: var(--spring-wood);
+    --darkmode-accent: var(--baby-blue);
+
+    /* typography */
+    --h1: 5.61rem;
+    --h2: 4.209rem;
+    --h3: 3.157rem;
+    --h4: 2.369rem;
+    --h5: 1.777rem;
+    --h6: 1.333rem;
+    --body: 1rem;
+    --subheader: 1.777rem;
+    --small: 0.75rem;
+    --button: 1.4rem;
+    --nav: 1.333rem;
+    --tag: 1.333rem;
+
+}
+
+/* Small screen (<= 1240px) */
+@media (max-width: 1240px) {
+    :root {
+        /* font sizes */
+        --h1: 5rem;
+        --h2: 4rem;
+        --h3: 2.3rem;
+        --h4: 1.4rem;
+        --h5: 1.2rem;
+        --h6: 1.1rem;
+        --body: 1rem;
+        --subheader: 1.2rem;
+        --small: 0.8rem;
+        --button: 1rem;
+        --nav: 1.2rem;
+        --tag: 1rem;
+    }
+}
+
+/* Tablet & Mobile (<= 768px) */
+/* font sizes */
+@media (max-width: 768px) {
+    :root {
+        --fs-h1: 3rem;
+        --fs-h2: 2.2rem;
+        --fs-h3: 2rem;
+        --fs-h4: 1.3rem;
+        --fs-h5: 1.1rem;
+        --fs-h6: 1rem;
+        --fs-body: 0.9rem;
+        --fs-small: 0.7rem;
+        --fs-button: 1rem;
+        --fs-nav: 0.8rem;
+        --fs-tag: 0.8rem;
+    }
+}
