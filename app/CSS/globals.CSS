@@ -88,14 +88,14 @@ li a {
     list-style-type: none;
 }
 
-ul {
+li {
     list-style-type: none;
 }
 
 /* nav and footer bars */
 nav {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
     overflow: hidden;
 }
