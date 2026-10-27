@@ -52,3 +52,13 @@ body {
     font-family: var(--font-body);
     font-size: var(--body);
 }
+
+li a {
+    font-family: var(--font-body);
+    font-size: var(--nav);
+    font-weight: 500;
+
+}
+
+/* nav and footer bars */
+nav {}
