@@ -83,12 +83,15 @@ li a {
     list-style-type: none;
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* nav and footer bars */
 nav {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: flex-end;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
     overflow: hidden;
 }
 
