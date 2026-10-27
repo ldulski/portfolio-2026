@@ -23,6 +23,11 @@ body {
         color: var(--spring-wood);
     }
 
+    .dropbtn {
+        background-color: var(--rosewood);
+        color: var(--spring-wood);
+    }
+
     .dropdown:hover {
         background-color: var(--baby-blue);
     }
@@ -83,7 +88,7 @@ li a {
     list-style-type: none;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
@@ -110,6 +115,8 @@ nav {
 
 .dropbtn {
     font-size: var(--button);
+    border: none;
+    padding: 14px 16px;
 }
 
 .dropdown-content {
