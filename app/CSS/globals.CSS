@@ -11,6 +11,13 @@
 body {
     background-color: var(--lightmode-bg);
     color: var(--lightmode-text);
+
+    /* global color stylings */
+    a {
+        color: var(--lightmode-text);
+    }
+    
+    /* nav + footer colors */
 }
 
 /* body.darkmode{
@@ -61,4 +68,9 @@ li a {
 }
 
 /* nav and footer bars */
-nav {}
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
