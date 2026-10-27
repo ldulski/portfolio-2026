@@ -16,7 +16,7 @@ body {
     a {
         color: var(--lightmode-text);
     }
-    
+
     /* nav + footer colors */
 }
 
@@ -60,11 +60,15 @@ body {
     font-size: var(--body);
 }
 
+a {
+    text-decoration: none;
+}
+
 li a {
     font-family: var(--font-body);
     font-size: var(--nav);
     font-weight: 500;
-
+    list-style-type: none;
 }
 
 /* nav and footer bars */
